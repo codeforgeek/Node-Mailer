@@ -8,8 +8,8 @@ var app=express();
 var smtpTransport = nodemailer.createTransport("SMTP",{
     service: "Gmail",
     auth: {
-        user: "rwtc66@gmail.com",
-        pass: "#define(password.h)"
+        user: "",
+        pass: ""
     }
 });
 /*------------------SMTP Over-----------------------------*/
